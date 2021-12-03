@@ -5,7 +5,7 @@
 const getFirstAndLast = (array) => ({
   first: array[0],
   last: array[array.length - 1],
-});
+})
 
 // Usage
 
