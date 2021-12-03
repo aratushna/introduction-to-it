@@ -2,11 +2,13 @@
 
 // Implementation
 
-const getFirstAndLast = (array) => {
+const getFirstAndLast = (array) => 
+
+{
   const first = array[0];
   const last = array[array.length - 1];
   return { first, last };
-};
+}
 
 // Usage
 
