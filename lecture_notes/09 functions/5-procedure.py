@@ -11,10 +11,10 @@ def addProcedure(a, b):
     res = cache
     if res == {}:
          res = cache.fromkeys(key)
-    if res.get(key[0]) != None:
-        return res.get(key[0])  # returns the value of the key, but if there is none, then None
+    if res.get(key) != None:
+        return res.get(key)  # returns the value of the key, but if there is none, then None
     res = a + b
-    cache[key[0]] = res
+    cache[key] = res
     return res
 
 
